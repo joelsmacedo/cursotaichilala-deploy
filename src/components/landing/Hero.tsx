@@ -32,7 +32,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container-wide section-padding pt-32">
-        <div className="max-w-2xl">
+        <div className="max-w-3xl mx-auto flex flex-col items-center text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/80 backdrop-blur-sm border border-primary/10 mb-8 animate-fade-up">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
@@ -48,13 +48,13 @@ const Hero = () => {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed mb-10 animate-fade-up stagger-2 max-w-xl">
+          <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed mb-10 animate-fade-up stagger-2 max-w-xl mx-auto">
             Uma antiga técnica chinesa para o homem moderno não apenas se equilibrar, mas transcender seu{" "}
             <span className="text-gradient font-semibold">Espírito e Consciência</span>
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-up stagger-3">
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12 animate-fade-up stagger-3">
             <Button 
               variant="hero" 
               className="group"
@@ -104,7 +104,7 @@ const Hero = () => {
           </div>
 
           {/* Trust Badges */}
-          <div className="flex flex-wrap gap-6 animate-fade-up stagger-4">
+          <div className="flex flex-wrap justify-center gap-6 animate-fade-up stagger-4">
             <div className="flex items-center gap-2 text-muted-foreground">
               <Shield className="w-5 h-5 text-primary" />
               <span className="text-sm">Garantia de 7 dias</span>
